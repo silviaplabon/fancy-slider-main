@@ -55,8 +55,8 @@ img {
   display: none;
 }
 .errorShow{
-  background-color:#007BFF;
-  padding:30px;
+  background-color:#007BFF!important;
+  padding:30px!important;
   border-radius:15px;
 }
 .errorShow:hover{
@@ -67,8 +67,8 @@ img {
 }
 #imageSelect{
   display:none;
-  background-color:#007BFF;
-  padding:30px;
+  background-color:#007BFF!important;
+  padding:30px!important;
   border-radius:15px;
 }
 
