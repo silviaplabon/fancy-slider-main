@@ -60,10 +60,10 @@ img {
   border-radius:15px!important;
 }
 .errorShow:hover{
-  background-color:ghostwhite!important;
+  color:white!important;
 }
 #imageSelect:hover{
-  background-color:ghostwhite!important;
+  color:white!important;
 }
 #imageSelect{
   display:none;
