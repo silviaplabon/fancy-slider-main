@@ -54,9 +54,26 @@ img {
 .main {
   display: none;
 }
+.errorShow{
+  background-color:#007BFF;
+  padding:30px;
+  border-radius:15px;
+}
+.errorShow:hover{
+  background-color:ghostwhite;
+}
+#imageSelect:hover{
+  background-color:ghostwhite;
+}
+
 #imageSelect{
   display:none;
+  background-color:#007BFF;
+  padding:30px;
+  border-radius:15px;
 }
+
+
 
 @media (max-width: 767px) {
   .justify-content-around.align-items-center.mt-3.gallery-header.mb-2 {

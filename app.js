@@ -31,8 +31,8 @@ const showImages = (images) => {
   //if no image exist showing error message
   if(images.length===0){
     let div = document.createElement('div');
-    div.className = 'col-12 text-center';
-    div.innerHTML = `<h1 class="fs-1" style="color:#007BFF" >No Image Found</h1>`;
+    div.className = 'col-12 text-center errorShow mt-4 shadow-lg';
+    div.innerHTML = `<h1 class="fs-1"  >No Image Found</h1>`;
     gallery.appendChild(div);
     imageSelect.style.display="none";
   }
@@ -135,8 +135,7 @@ const changeSlide = (index) => {
   items[index].style.display = "block"
 }
 
-// new added section
-//for handling enter option
+// when search button clicked it will call 
 document.getElementById("search").addEventListener("keypress", function(e) {
   
   if (e.key==="Enter") {
